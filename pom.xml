@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.utexas.tacc.tapis</groupId>
-    <artifactId>tapis-bom</artifactId>
+    <artifactId>tapis-meta-bom</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
@@ -15,16 +15,16 @@
     -->
     <name>TACC Tapis API BOM</name>
     <description>TAPIS services BOM dependencies</description>
-    <url>https://github.com/tapis-project/tapis-bom</url>
+    <url>https://github.com/tapis-project/tapis-meta-bom</url>
     <organization>
         <name>TACC</name>
         <url>http://tacc.utexas.edu</url>
     </organization>
 
     <scm>
-        <connection>scm:git:git@github.com:tapis-project/tapis-bom.git</connection>
-        <url>https://github.com/tapis-project/tapis-bom</url>
-        <tag>tapis-bom-2.0.4</tag>
+        <connection>scm:git:git@github.com:tapis-project/tapis-meta-bom.git</connection>
+        <url>https://github.com/tapis-project/tapis-meta-bom</url>
+        <tag>tapis-meta-bom-1.0.0</tag>
     </scm>
 
     <repositories>
