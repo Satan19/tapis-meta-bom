@@ -230,8 +230,6 @@
         <activemq-client.version>5.16.0</activemq-client.version>
         <amqp-client.version>5.10.0</amqp-client.version>
         <apache-sshd.version>2.7.0</apache-sshd.version>
-        <args4j.version>2.33</args4j.version>
-        <commons-codec.version>1.15</commons-codec.version>
         <commons-dbutils.version>1.7</commons-dbutils.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-io.version>2.9.0</commons-io.version>
@@ -388,16 +386,6 @@
                 <groupId>com.rabbitmq</groupId>
                 <artifactId>amqp-client</artifactId>
                 <version>${amqp-client.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>args4j</groupId>
-                <artifactId>args4j</artifactId>
-                <version>${args4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>${commons-codec.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-dbutils</groupId>
@@ -561,11 +549,6 @@
                 <version>${jersey-container-servlet.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.glassfish.jersey.core</groupId>
-                <artifactId>jersey-common</artifactId>
-                <version>${jersey-container-servlet.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.glassfish.jersey.containers</groupId>
                 <artifactId>jersey-container-servlet</artifactId>
                 <version>${jersey-container-servlet.version}</version>
@@ -573,6 +556,11 @@
             <dependency>
                 <groupId>org.glassfish.jersey.containers</groupId>
                 <artifactId>jersey-container-servlet-core</artifactId>
+                <version>${jersey-container-servlet.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jersey.core</groupId>
+                <artifactId>jersey-common</artifactId>
                 <version>${jersey-container-servlet.version}</version>
             </dependency>
             <dependency>
