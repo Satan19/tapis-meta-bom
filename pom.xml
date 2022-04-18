@@ -251,7 +251,6 @@
         <jakarta.servlet-api.version>4.0.2</jakarta.servlet-api.version>          <!-- jersey group -->
         <jargon-core.version>4.3.0.1-RELEASE</jargon-core.version>
         <javacc.version>7.0.6</javacc.version>
-        <javax.activation.activation.version>1.1.1</javax.activation.activation.version>
         <javax.annotation.version>1.3.2</javax.annotation.version>
         <javax.el-api.version>3.0.1-b06</javax.el-api.version>
         <javax.mail.version>1.6.2</javax.mail.version>
@@ -458,11 +457,6 @@
                 <version>${jakarta.servlet-api.version}</version>
             </dependency>
             <dependency>
-                <groupId>javax.activation</groupId>
-                <artifactId>activation</artifactId>
-                <version>${javax.activation.activation.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
                 <version>${javax.annotation.version}</version>
@@ -471,16 +465,6 @@
                 <groupId>javax.ws.rs</groupId>
                 <artifactId>javax.ws.rs-api</artifactId>
                 <version>${javax.ws.rs-api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-core</artifactId>
-                <version>${javax.xml.bind.jaxb-core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-impl</artifactId>
-                <version>${javax.xml.bind.jaxb-impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.xml.bind</groupId>
