@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.utexas.tacc.tapis</groupId>
   <artifactId>tapis-meta-bom</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>TACC Tapis API BOM</name>
-  <description>TAPIS services BOM dependencies for tapis-meta-vdj and tapis-meta-shared</description>
+  <description>TAPIS services BOM dependencies</description>
   <url>https://github.com/tapis-project/tapis-meta-bom</url>
   <organization>
     <name>TACC</name>
@@ -129,6 +129,7 @@
   </developers>
   <scm>
     <connection>scm:git:git@github.com:tapis-project/tapis-meta-bom.git</connection>
+    <tag>tapis-meta-bom-1.0.0</tag>
     <url>https://github.com/tapis-project/tapis-meta-bom</url>
   </scm>
   <distributionManagement>
@@ -158,7 +159,6 @@
     <google-findbugs.version>3.0.2</google-findbugs.version>
     <maven-war-plugin.version>3.2.3</maven-war-plugin.version>
     <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-    <tapis-shared-java.version>[2.0.24,3.0)</tapis-shared-java.version>
     <com.amazonaws.version>1.11.327</com.amazonaws.version>
     <p6spy.version>3.8.3</p6spy.version>
     <httpclient.version>4.5.8</httpclient.version>
@@ -205,28 +205,25 @@
     <httpmime.version>4.5.8</httpmime.version>
     <okhttp.version>2.7.5</okhttp.version>
     <hk2.version>2.6.1</hk2.version>
-    <commons-codec.version>1.15</commons-codec.version>
-    <tapis-client-java.version>[2.0.24,3.0)</tapis-client-java.version>
     <javax.xml.bind.jaxb-core.version>2.3.0.1</javax.xml.bind.jaxb-core.version>
     <maven-shade-plugin.version>3.2.1</maven-shade-plugin.version>
     <apache-sshd.version>2.7.0</apache-sshd.version>
     <mockito-core.version>3.0.0</mockito-core.version>
     <javax.websocket-api.version>1.1</javax.websocket-api.version>
-    <build.timestamp>2021-12-21T17:24:17Z</build.timestamp>
+    <build.timestamp>2022-04-20T18:41:20Z</build.timestamp>
     <statefulj.version>3.0</statefulj.version>
     <java-source.version>1.15</java-source.version>
     <reactor-rabbitmq.version>1.5.2</reactor-rabbitmq.version>
     <google-maven-replacer-plugin.version>1.5.3</google-maven-replacer-plugin.version>
+    <tapis-meta-shared.version>1.0.0</tapis-meta-shared.version>
     <sshj.version>0.27.0</sshj.version>
     <swagger-maven-plugin.version>2.0.10</swagger-maven-plugin.version>
     <javax.xml.bind.jaxb-impl.version>2.3.2</javax.xml.bind.jaxb-impl.version>
     <javax.el-api.version>3.0.1-b06</javax.el-api.version>
-    <args4j.version>2.33</args4j.version>
     <logback-classic.version>1.2.3</logback-classic.version>
     <shiro.version>1.4.1</shiro.version>
     <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
     <jersey-container-servlet.version>2.34</jersey-container-servlet.version>
-    <javax.activation.activation.version>1.1.1</javax.activation.activation.version>
     <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
     <org.everit.json.schema.version>1.12.1</org.everit.json.schema.version>
     <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
@@ -302,7 +299,7 @@
   </pluginRepositories>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
-    <scriptSourceDirectory>/var/lib/jenkins/jobs/TapisJava/jobs/2_Release/jobs/Shared/jobs/release-bom-local/workspace/src/main/scripts</scriptSourceDirectory>
+    <scriptSourceDirectory>/var/lib/jenkins/jobs/TapisJava/jobs/2_Release/jobs/Shared/jobs/release-tapis-meta-bom-local/workspace/src/main/scripts</scriptSourceDirectory>
     <testSourceDirectory>src/test/java</testSourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
     <testOutputDirectory>target/test-classes</testOutputDirectory>
